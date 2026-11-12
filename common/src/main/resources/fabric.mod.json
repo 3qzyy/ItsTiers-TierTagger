@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "itstiers",
+  "version": "${version}",
+  "name": "ItsTiers Tagger",
+  "description": "Tier tagger for the ItsTiers tierlist - live tiers, LTMs and a holographic tier browser.",
+  "authors": ["lozkoo"],
+  "contact": { "homepage": "https://itsmoritzzz787.github.io/ItsTiers/" },
+  "license": "MIT",
+  "icon": "assets/itstiers/icon.png",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.itstiers.ItsTiersClient"] },
+  "mixins": ["itstiers.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": "${mc_range}",
+    "java": ">=${java}",
+    "fabric-api": "*"
+  }
+}

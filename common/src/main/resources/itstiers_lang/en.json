@@ -1,0 +1,15 @@
+{
+  "tab.ranking": "Ranking", "tab.modes": "Modes", "tab.ltm": "LTM", "tab.profile": "Profile", "tab.settings": "Settings",
+  "status.loading": "Loading ItsTiers...", "status.live": "LIVE · {0} players", "status.cached": "CACHED · {0} players", "status.ltm": "LTM: {0}",
+  "profile.none": "No player selected", "profile.notfound": "{0} is not on ItsTiers", "profile.hint": "Use /itstiers <nick> to look up a player",
+  "profile.overall": "overall", "profile.maxrank": "Highest rank reached", "profile.next": "{0} in {1} pts",
+  "profile.modes": "TIERS BY MODE", "profile.ltms": "LIMITED-TIME MODES", "profile.count": "{0} ranked · {1} unranked", "profile.autosync": "auto-synced",
+  "stat.points": "Points", "stat.best": "Best", "stat.ranked": "Ranked", "stat.ltm": "LTMs",
+  "radar.title": "Tier radar", "radar.peak": "Peak", "radar.avg": "Avg", "radar.strongest": "Strongest",
+  "rank.pts": "{0} pts", "board.tier": "Tier {0}", "board.count": "{0} players", "ltm.none": "No limited-time modes yet", "ltm.active": "ACTIVE",
+  "tier.retired": "retired",
+  "egg.sub": "Can't let go",
+  "set.nametag": "Tiers on nametags", "set.tablist": "Tiers in tab list", "set.icons": "Mode icon in tag", "set.side": "Tag side",
+  "set.left": "Left", "set.right": "Right", "set.mode": "Mode shown in tag", "set.best": "Best tier", "set.theme": "Theme", "set.dark": "Dark", "set.light": "Light",
+  "set.glass": "Liquid glass", "set.perf": "Performance mode", "set.lang": "Language", "set.hint": "Performance mode turns off blur, glass and the 3D background."
+}

@@ -1,0 +1,15 @@
+{
+  "tab.ranking": "Rangliste", "tab.modes": "Modi", "tab.ltm": "LTM", "tab.profile": "Profil", "tab.settings": "Optionen",
+  "status.loading": "ItsTiers wird geladen...", "status.live": "LIVE · {0} Spieler", "status.cached": "CACHE · {0} Spieler", "status.ltm": "LTM: {0}",
+  "profile.none": "Kein Spieler gewählt", "profile.notfound": "{0} ist nicht auf ItsTiers", "profile.hint": "Nutze /itstiers <Name>, um einen Spieler zu suchen",
+  "profile.overall": "gesamt", "profile.maxrank": "Höchster Rang erreicht", "profile.next": "{0} in {1} Pkt",
+  "profile.modes": "TIERS NACH MODUS", "profile.ltms": "ZEITLICH BEGRENZTE MODI", "profile.count": "{0} gerankt · {1} ohne", "profile.autosync": "auto-sync",
+  "stat.points": "Punkte", "stat.best": "Bestes", "stat.ranked": "Gerankt", "stat.ltm": "LTMs",
+  "radar.title": "Tier-Radar", "radar.peak": "Peak", "radar.avg": "Schnitt", "radar.strongest": "Stärkster",
+  "rank.pts": "{0} Pkt", "board.tier": "Tier {0}", "board.count": "{0} Spieler", "ltm.none": "Noch keine LTMs", "ltm.active": "AKTIV",
+  "tier.retired": "inaktiv",
+  "egg.sub": "Lässt nicht los",
+  "set.nametag": "Tiers am Namensschild", "set.tablist": "Tiers in der Tab-Liste", "set.icons": "Modus-Icon im Tag", "set.side": "Tag-Seite",
+  "set.left": "Links", "set.right": "Rechts", "set.mode": "Angezeigter Modus", "set.best": "Bestes Tier", "set.theme": "Design", "set.dark": "Dunkel", "set.light": "Hell",
+  "set.glass": "Liquid Glass", "set.perf": "Leistungsmodus", "set.lang": "Sprache", "set.hint": "Der Leistungsmodus schaltet Unschärfe, Glas und den 3D-Hintergrund ab."
+}

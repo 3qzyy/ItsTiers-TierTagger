@@ -1,0 +1,15 @@
+{
+  "tab.ranking": "Ranking", "tab.modes": "Tryby", "tab.ltm": "LTM", "tab.profile": "Profil", "tab.settings": "Ustawienia",
+  "status.loading": "Wczytywanie ItsTiers...", "status.live": "NA ŻYWO · {0} graczy", "status.cached": "Z PAMIĘCI · {0} graczy", "status.ltm": "LTM: {0}",
+  "profile.none": "Nie wybrano gracza", "profile.notfound": "{0} nie ma na ItsTiers", "profile.hint": "Wpisz /itstiers <nick>, aby sprawdzić gracza",
+  "profile.overall": "ogólnie", "profile.maxrank": "Najwyższa ranga", "profile.next": "{0} za {1} pkt",
+  "profile.modes": "TIERY W TRYBACH", "profile.ltms": "TRYBY LIMITOWANE", "profile.count": "{0} z tierem · {1} bez", "profile.autosync": "auto-synchronizacja",
+  "stat.points": "Punkty", "stat.best": "Najlepszy", "stat.ranked": "Tryby", "stat.ltm": "LTM",
+  "radar.title": "Radar tierów", "radar.peak": "Szczyt", "radar.avg": "Średnio", "radar.strongest": "Najmocniejszy",
+  "rank.pts": "{0} pkt", "board.tier": "Tier {0}", "board.count": "{0} graczy", "ltm.none": "Brak trybów limitowanych", "ltm.active": "AKTYWNY",
+  "tier.retired": "emeryt",
+  "egg.sub": "Nie odpuszcza",
+  "set.nametag": "Tiery na nametagach", "set.tablist": "Tiery na liście TAB", "set.icons": "Ikona trybu w tagu", "set.side": "Strona tagu",
+  "set.left": "Lewa", "set.right": "Prawa", "set.mode": "Tryb pokazywany w tagu", "set.best": "Najlepszy tier", "set.theme": "Motyw", "set.dark": "Ciemny", "set.light": "Jasny",
+  "set.glass": "Liquid glass", "set.perf": "Tryb wydajności", "set.lang": "Język", "set.hint": "Tryb wydajności wyłącza rozmycie, szkło i tło 3D."
+}

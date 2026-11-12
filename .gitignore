@@ -1,0 +1,13 @@
+build/
+.gradle/
+run/
+*.class
+.idea/
+*.iml
+raw/
+tools/
+versions/*/build/
+versions/*/run/
+versions/*/.gradle/
+dist/
+
