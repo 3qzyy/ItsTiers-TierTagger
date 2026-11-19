@@ -1,0 +1,22 @@
+{
+  "providers": [
+    {"type":"bitmap","file":"itstiers:glyph/crystal.png","ascent":8,"height":9,"chars":["\uE000"]},
+    {"type":"bitmap","file":"itstiers:glyph/uhc.png","ascent":8,"height":9,"chars":["\uE001"]},
+    {"type":"bitmap","file":"itstiers:glyph/pot.png","ascent":8,"height":9,"chars":["\uE002"]},
+    {"type":"bitmap","file":"itstiers:glyph/nethpot.png","ascent":8,"height":9,"chars":["\uE003"]},
+    {"type":"bitmap","file":"itstiers:glyph/smp.png","ascent":8,"height":9,"chars":["\uE004"]},
+    {"type":"bitmap","file":"itstiers:glyph/sword.png","ascent":8,"height":9,"chars":["\uE005"]},
+    {"type":"bitmap","file":"itstiers:glyph/axe.png","ascent":8,"height":9,"chars":["\uE006"]},
+    {"type":"bitmap","file":"itstiers:glyph/mace.png","ascent":8,"height":9,"chars":["\uE007"]},
+    {"type":"bitmap","file":"itstiers:glyph/chaosmace.png","ascent":8,"height":9,"chars":["\uE008"]},
+    {"type":"bitmap","file":"itstiers:glyph/spearmace.png","ascent":8,"height":9,"chars":["\uE009"]},
+    {"type":"bitmap","file":"itstiers:glyph/overall.png","ascent":8,"height":9,"chars":["\uE00A"]},
+    {"type":"bitmap","file":"itstiers:glyph/ltm.png","ascent":8,"height":9,"chars":["\uE00B"]},
+    {"type":"bitmap","file":"itstiers:glyph/ltm_creeper.png","ascent":8,"height":9,"chars":["\uE00C"]},
+    {"type":"bitmap","file":"itstiers:glyph/ltm_debuff.png","ascent":8,"height":9,"chars":["\uE00D"]},
+    {"type":"bitmap","file":"itstiers:glyph/ltm_diamond_op.png","ascent":8,"height":9,"chars":["\uE00E"]},
+    {"type":"bitmap","file":"itstiers:glyph/ltm_diamond_smp.png","ascent":8,"height":9,"chars":["\uE00F"]},
+    {"type":"bitmap","file":"itstiers:glyph/ltm_lightspeed_mace.png","ascent":8,"height":9,"chars":["\uE010"]},
+    {"type":"bitmap","file":"itstiers:glyph/ltm_speed.png","ascent":8,"height":9,"chars":["\uE011"]}
+  ]
+}

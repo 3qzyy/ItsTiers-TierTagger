@@ -1,0 +1,12 @@
+pluginManagement {
+    repositories {
+        maven { url = 'https://maven.fabricmc.net/' }
+        gradlePluginPortal()
+        mavenCentral()
+    }
+}
+rootProject.name = 'ItsTiersTagger'
+['mc1_21_11', 'mc26_1', 'mc26_2', 'mc26_3'].each { n ->
+    include n
+    project(":$n").projectDir = file("versions/$n")
+}

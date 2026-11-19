@@ -1,0 +1,63 @@
+plugins {
+    id 'net.fabricmc.fabric-loom' version '1.19.4' apply false
+    id 'net.fabricmc.fabric-loom-remap' version '1.19.4' apply false
+}
+
+def targets = [
+    mc1_21_11: [mc: '1.21.11', api: '0.141.6+1.21.11', src: ['legacy'], java: 21, range: '1.21.11'],
+    mc26_1   : [mc: '26.1.2',  api: '0.155.3+26.1.2',  src: ['modern', 'modern_a'], java: 25, range: '>=26.1 <26.2'],
+    mc26_2   : [mc: '26.2',    api: '0.161.0+26.2',    src: ['modern', 'modern_b'], java: 25, range: '26.2'],
+    mc26_3   : [mc: '26.3',    api: '0.166.2+26.3',    src: ['modern', 'modern_b'], java: 25, range: '26.3'],
+]
+
+subprojects { p ->
+    def t = targets[p.name]
+    def legacy = t.src.contains('legacy')
+    apply plugin: 'java'
+    apply plugin: legacy ? 'net.fabricmc.fabric-loom-remap' : 'net.fabricmc.fabric-loom'
+
+    group = 'dev.itstiers'
+    version = "${rootProject.mod_version}+mc${t.mc}"
+    base { archivesName = 'itstiers-tagger' }
+
+    repositories { mavenCentral() }
+
+    dependencies {
+        minecraft "com.mojang:minecraft:${t.mc}"
+        if (legacy) {
+            mappings loom.officialMojangMappings()
+            modImplementation "net.fabricmc:fabric-loader:${rootProject.loader_version}"
+            modImplementation "net.fabricmc.fabric-api:fabric-api:${t.api}"
+        } else {
+            implementation "net.fabricmc:fabric-loader:${rootProject.loader_version}"
+            implementation "net.fabricmc.fabric-api:fabric-api:${t.api}"
+        }
+        implementation 'com.github.weisj:jsvg:2.2.0'
+        include 'com.github.weisj:jsvg:2.2.0'
+    }
+
+    sourceSets.main {
+        java.srcDirs = [rootProject.file('common/src/main/java')] + t.src.collect { rootProject.file("${it}/src/main/java") }
+        resources.srcDirs = [rootProject.file('common/src/main/resources')]
+    }
+
+    processResources {
+        def props = [version: project.version, mc_range: t.range, java: t.java]
+        inputs.properties(props)
+        filesMatching('fabric.mod.json') { expand(props) }
+    }
+
+    tasks.withType(JavaCompile).configureEach {
+        options.encoding = 'UTF-8'
+        options.release = t.java
+    }
+
+    loom {
+        runs {
+            client {
+                if (rootProject.hasProperty('autoshot')) vmArg "-Ditstiers.autoshot=${rootProject.property('autoshot')}"
+            }
+        }
+    }
+}
+
